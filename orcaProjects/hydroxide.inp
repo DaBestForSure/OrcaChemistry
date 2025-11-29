@@ -1,0 +1,18 @@
+# avogadro generated ORCA file
+# hydroxide
+# 
+! Opt revPBE def2-TZVP 
+
+%maxcore 16384
+
+%output
+   print[p_mos] 1
+   print[p_basis] 2
+end
+
+* xyz -1 1
+   O     -1.630029   -0.261360    0.000000
+   H     -0.065694   -0.174003    0.000025
+*
+
+
