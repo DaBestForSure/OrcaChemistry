@@ -1,0 +1,8 @@
+! B3LYP def2-SVP NEB-TS FREQ
+
+%NEB
+  NEB_END_XYZFILE "product_complex.xyz"
+  PREOPT TRUE
+END
+
+* XYZFILE -1 1 reactant_complex.xyz

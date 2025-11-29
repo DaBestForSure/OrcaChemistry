@@ -1,0 +1,17 @@
+# avogadro generated ORCA file
+# bromine
+# 
+! Opt revPBE def2-TZVP 
+
+%maxcore 16384
+
+%output
+   print[p_mos] 1
+   print[p_basis] 2
+end
+
+* xyz -1 1
+   Br    -3.724445    1.275933    0.000000
+*
+
+
