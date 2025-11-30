@@ -1,8 +1,12 @@
-! B3LYP def2-SVP NEB-TS FREQ
+! PBE def2-SVP NEB-TS TightSCF
 
 %NEB
   NEB_END_XYZFILE "product_complex.xyz"
   PREOPT TRUE
+  NImages 3
+  MaxIter 200
 END
+
+%MaxCore 2000
 
 * XYZFILE -1 1 reactant_complex.xyz
