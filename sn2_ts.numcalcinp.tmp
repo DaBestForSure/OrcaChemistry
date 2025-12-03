@@ -1,7 +1,0 @@
-sn2_ts        # BaseName
-sn2_ts        # GBWName
-3       # number of calculations
-1       # number of CPUs        
-6       # program flag
-0       # printing flag
-0       # free_end
