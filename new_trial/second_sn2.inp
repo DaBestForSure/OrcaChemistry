@@ -1,0 +1,12 @@
+! PBE def2-SVP NEB-TS TightSCF CPCM(Water)
+
+%NEB
+  NEB_END_XYZFILE "product_complex2.xyz"
+  PREOPT TRUE
+  NImages 3
+  MaxIter 200
+END
+
+%MaxCore 2000
+
+* XYZFILE -1 1 reactant_complex2.xyz
