@@ -1,0 +1,12 @@
+! B3LYP def2-TZVP NEB-TS TightSCF CPCM(Acetone)
+
+%NEB
+  NEB_END_XYZFILE "product_complex2.xyz"
+  PREOPT TRUE
+  NImages 5
+  MaxIter 200
+END
+
+%MaxCore 4000
+
+* XYZFILE -1 1 reactant_complex2.xyz
